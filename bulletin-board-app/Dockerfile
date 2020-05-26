@@ -1,4 +1,4 @@
-FROM node:current-slim
+FROM node:8.0
 
 WORKDIR /usr/src/app
 COPY package.json .
